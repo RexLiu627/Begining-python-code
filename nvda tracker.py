@@ -33,7 +33,7 @@ Roblox = get_live_price("RBLX")
 
 while start == True:
     print(get_live_price("NVDA"))
-    if get_live_price("NVDA") > 120:
+    if get_live_price("NVDA") > 130:
         start = False
     else:
         if get_live_price("NVDA") < 110:
